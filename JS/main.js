@@ -8,9 +8,7 @@ function dividirNombre(palabra){
     return palabra.split("").join(" ").toUpperCase();
 }
 
-const resultado = dividirNombre(nombre);
-
-console.log(resultado);
+console.log(dividirNombre(nombre));
 
 //////////////////////////////////////////////////////////////////////////////////////////////
 //EJERCICIO 2
@@ -20,9 +18,11 @@ const nombre0= "Fernando Alonso Díaz Garcia";
 
 let arrayNombre= nombre0.split(" ");
 
-let resultado1 = arrayNombre.length;
+function contarPalabras(numero){
+    return arrayNombre.length
+}
 
-console.log(resultado1);
+console.log(contarPalabras(nombre0));
 
 //////////////////////////////////////////////////////////////////////////////////////////////
 //EJERCICIO 3
@@ -38,6 +38,4 @@ let letrica= arrayFrase.filter(function(letra){
     return letra == letra0
 });
 
-let resultado2= letrica.length;
-
-console.log(resultado2)
+console.log(letrica.length)
