@@ -28,7 +28,7 @@ console.log(contarPalabras(nombre0));
 //EJERCICIO 3
 //Diseña un algoritmo que cuente las veces que aparece una determinada letra en una frase.
 
-const frase= "Ejercicio de practica";
+const frase= "ejercicio de practica";
 
 let letra0= "e";
 
